@@ -34,3 +34,7 @@ The relationships between these entities have been identifies as follows:
 - Product_categories(product_id(fk), category_id(fk))
 - Order (<ins>order_id</ins>, order_number, customer_id(fk), order_date, total)
 - Order_details(<ins>order_details_id</ins>, order_id(fk), product_id(fk), quantity, cost)
+
+### 3. Entity Relationship Diagram.
+The ERD can be found in the following URL or in this directory [ERD](./ERD/)
+https://app.diagrams.net/#G13JQ8ZtWxKMDUx-BEWSwHOuBwIfiTv82x

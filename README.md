@@ -21,7 +21,7 @@ The requirement analysis identifies that we will need the following entities:
 - Order
 
 The relationships between these entities have been identifies as follows:
-- A **customer** <u>may have placed zero or more</u> **orders**. An **order** must belong to one and only one **customer**.
+- A **customer** <ins>may have placed zero or more</ins> **orders**. An **order** must belong to one and only one **customer**.
 - A **supplier** must sell one or more **products**. A **product** must be supplied by one and only one **supplier**.
 - An **order** must have one or more **products**. A **product** may be part of zero or one **order**.
 - A **product** must belong to one or more **categories**. A **category** may be part of zero or more **products**.

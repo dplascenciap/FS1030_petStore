@@ -38,3 +38,7 @@ The relationships between these entities have been identifies as follows:
 ### 3. Entity Relationship Diagram.
 The ERD can be found in the following URL or in this location [ERD/Pet_Store_ERD.png](./ERD/Pet_Store_ERD.png)<br>
 https://app.diagrams.net/#G13JQ8ZtWxKMDUx-BEWSwHOuBwIfiTv82x
+
+### 4. SQL Scripts
+The database was created using the following SQL scripts.<br>
+These scripts are also available at: [SQL_Scripts](./SQL_Scripts)<br>

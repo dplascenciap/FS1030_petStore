@@ -40,5 +40,4 @@ The ERD can be found in the following URL or in this location [ERD/Pet_Store_ERD
 https://app.diagrams.net/#G13JQ8ZtWxKMDUx-BEWSwHOuBwIfiTv82x
 
 ### 4. SQL Scripts
-The database was created using the following SQL scripts.<br>
-These scripts are also available at: [SQL_Scripts](./SQL_Scripts)<br>
+The database was created using the SQL scripts available at: [SQL_Scripts](./SQL_Scripts)

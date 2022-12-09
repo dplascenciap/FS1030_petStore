@@ -36,5 +36,5 @@ The relationships between these entities have been identifies as follows:
 - Order_details(<ins>order_details_id</ins>, order_id(fk), product_id(fk), quantity, cost)
 
 ### 3. Entity Relationship Diagram.
-The ERD can be found in the following URL or in this directory [ERD](./ERD/)<br>
+The ERD can be found in the following URL or in this location [ERD/Pet_Store_ERD.png](./ERD/Pet_Store_ERD.png)<br>
 https://app.diagrams.net/#G13JQ8ZtWxKMDUx-BEWSwHOuBwIfiTv82x

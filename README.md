@@ -25,3 +25,12 @@ The relationships between these entities have been identifies as follows:
 - A **supplier** <ins>must sell one or more</ins> **products**. A **product** <ins>must</ins> be supplied by <ins>one and only one</ins> **supplier**.
 - An **order** <ins>must have one or more</ins> **products**. A **product** <ins>may</ins> be part of <ins>zero or more</ins> **order**.
 - A **product** <ins>must belong to one or more</ins> **categories**. A **category** <ins>may</ins> be part of <ins>zero or more</ins> **products**.
+
+### 2. Relational Model.
+- Customer (<ins>customer_id</ins>, first_name, last_name, phone_number, email, address)
+- Supplier (<ins>supplier_id</ins>, company_name, phone_number, email, address)
+- Product (<ins>product_id</ins>, product_sku, name, supplier_id(fk), date_added, price, stock)
+- Categories (<ins>category_id</ins>, name, description)
+- Product_categories(product_id(fk), category_id(fk))
+- Order (<ins>order_id</ins>, order_number, customer_id(fk), order_date, total)
+- Order_details(<ins>order_details_id</ins>, order_id(fk), product_id(fk), quantity, cost)

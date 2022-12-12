@@ -29,7 +29,7 @@ The relationships between these entities have been identifies as follows:
 ### 2. Relational Model.
 - Customer (<ins>customer_id</ins>, first_name, last_name, phone_number, email, address)
 - Supplier (<ins>supplier_id</ins>, company_name, phone_number, email, address)
-- Product (<ins>product_id</ins>, product_sku, name, supplier_id(fk), date_added, price, stock)
+- Product (<ins>product_id</ins>, product_sku, name, supplier_id(fk), date_added, unit_price, stock)
 - Categories (<ins>category_id</ins>, name, description)
 - Product_categories(product_id(fk), category_id(fk))
 - Order (<ins>order_id</ins>, order_number, customer_id(fk), order_date, total)
@@ -40,4 +40,4 @@ The ERD can be found in the following URL or in this location [ERD/Pet_Store_ERD
 https://app.diagrams.net/#G13JQ8ZtWxKMDUx-BEWSwHOuBwIfiTv82x
 
 ### 4. SQL Scripts
-The database was created using the SQL scripts available at: [SQL_Scripts/pet_store.sql](./SQL_Scripts/pet_store.sql)
+The database was created using the SQL scripts available at: [SQL_Scripts](./SQL_Scripts/)

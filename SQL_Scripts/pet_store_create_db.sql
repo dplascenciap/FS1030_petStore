@@ -1,4 +1,4 @@
--- https://github.com/maurom88/YorkU_CSFS1030.git
+-- https://github.com/dplascenciap/FS1030_petStore.git
 -- Delete the project database in order to start fresh.
 -- If database does not exist the error code 1008 is returned.
 -- Error Code: 1008. Can't drop database 'pet_store_db'; database doesn't exist

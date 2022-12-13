@@ -36,8 +36,10 @@ The relationships between these entities have been identifies as follows:
 - Order_details(<ins>order_details_id</ins>, order_id(fk), product_id(fk), quantity, cost)
 
 ### 3. Entity Relationship Diagram.
-The ERD can be found in the following URL or in this location [ERD/Pet_Store_ERD.png](./ERD/Pet_Store_ERD.png)<br>
-https://app.diagrams.net/#G13JQ8ZtWxKMDUx-BEWSwHOuBwIfiTv82x
+The ERD can be found in the following locations:
+ - URL: https://app.diagrams.net/#G13JQ8ZtWxKMDUx-BEWSwHOuBwIfiTv82x
+ - PNG exported from the URL: [Pet_Store_ERD.png](./ERD/Pet_Store_ERD.png)
+ - PNG exported frm MySQL Workbench: [Pet_Store_ERD_MySQL.png](./ERD/Pet_Store_ERD_MySQL.png)
 
 ### 4. SQL Scripts
 The database was created using the SQL scripts available at: [SQL_Scripts](./SQL_Scripts/)

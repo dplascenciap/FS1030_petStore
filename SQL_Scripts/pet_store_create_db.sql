@@ -121,7 +121,7 @@ total
 */
 CREATE TABLE orders (
     order_id INT NOT NULL AUTO_INCREMENT,
-    order_number VARCHAR(50) NOT NULL,
+    order_number VARCHAR(50) NOT NULL UNIQUE,
     customer_id INT NOT NULL,
     order_date DATETIME NOT NULL DEFAULT (CURRENT_TIMESTAMP),
     total DECIMAL(6,2),

@@ -41,4 +41,4 @@ https://app.diagrams.net/#G13JQ8ZtWxKMDUx-BEWSwHOuBwIfiTv82x
 
 ### 4. SQL Scripts
 The database was created using the SQL scripts available at: [SQL_Scripts](./SQL_Scripts/)
-- To create the database, perform the script [pet_store_create_db.sql](./pet_store_create_db.sql)
+- To create the database, perform the script [pet_store_create_db.sql](./SQL_Scripts/pet_store_create_db.sql)

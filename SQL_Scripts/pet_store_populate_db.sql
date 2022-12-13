@@ -58,19 +58,19 @@ INSERT INTO customer (first_name, last_name, phone_number, email, address)
 -- Populate the table supplier
 INSERT INTO supplier (company_name, email, phone_number, address)
 	VALUES
-	('Price-Brekke', 'miiannoni1@unicef.org', '508-111-8271', '59989 Manufacturers Trail'),
-	('Reynolds and Sons', 'switheford2@hud.gov', '797-707-9527', '95076 Clarendon Trail'),
-	('Connelly-Bartoletti', 'kcobbin3@dropbox.com', '725-435-3907', '10858 Forest Dale Lane'),
-	('Sawayn, Skiles and Cassin', 'lstorck4@smh.com.au', '775-222-7352', '424 Hayes Point'),
-	('McClure and Sons', 'ghardey5@ifeng.com', '850-942-8189', '3 Hanson Road'),
-	('Olson, Gulgowski and Lueilwitz', 'rgreguoli6@reverbnation.com', '390-789-2383', '8 Scofield Road'),
-	('Berge-Bartoletti', 'msones7@wufoo.com', '870-621-2420', '8232 Toban Plaza'),
-	('O''Hara-Homenick', 'fscahill8@apache.org', '795-577-5501', '81469 Londonderry Center'),
-	('Berge-Bogisich', 'acomi9@angelfire.com', '850-974-6669', '440 Northview Street'),
-	('Streich and Sons', 'dinglestona@jimdo.com', '702-943-6720', '70 Stuart Trail'),
-	('Leuschke-Berge', 'mhaffendenb@sbwire.com', '829-900-3409', '9 Briar Crest Alley'),
-	('Vandervort, Huels and Doyle', 'ysaddletonc@netlog.com', '217-786-0580', '66013 Dottie Terrace'),
-	('Feil, Terry and Monahan', 'rmorded@yale.edu', '868-618-9176', '03059 Sundown Road'),
-	('Schowalter, Bernier and Bergstrom', 'cmenhenitte@bluehost.com', '716-669-8612', '6 Pepper Wood Plaza'),
-	('Mante Group', 'zroblinf@rediff.com', '252-142-4947', '4675 Dakota Crossing')	
+	('Royal Canin', 'miiannoni1@royalcanin.com', '508-111-8271', '59989 Manufacturers Trail'),
+	('Blue Buffalo', 'switheford2@bluebuffalo.com', '797-707-9527', '95076 Clarendon Trail'),
+	('Purina Pro Plan', 'kcobbin3@purina.com', '725-435-3907', '10858 Forest Dale Lane'),
+	('Paw Prints', 'lstorck4@pawprints', '775-222-7352', '424 Hayes Point'),
+	('Hills Science Diet', 'ghardey5@hsd.com', '850-942-8189', '3 Hanson Road'),
+	('Beaver Canoe', 'rgreguoli6@beavercanoe.com', '390-789-2383', '8 Scofield Road'),
+	('Whisker City', 'msones7@whiskercity.com', '870-621-2420', '8232 Toban Plaza'),
+	('Nutro Natural Choice', 'fscahill8@nnc.com', '795-577-5501', '81469 Londonderry Center'),
+	('Natural Balance', 'acomi9@naturalbalance.com', '850-974-6669', '440 Northview Street'),
+	('Greenies', 'dinglestona@greenies.com', '702-943-6720', '70 Stuart Trail'),
+	('Wellness', 'mhaffendenb@wellness.com', '829-900-3409', '9 Briar Crest Alley'),
+	('Whiskas', 'ysaddletonc@whiskas.com', '217-786-0580', '66013 Dottie Terrace'),
+	('Merrick', 'rmorded@merrick.com', '868-618-9176', '03059 Sundown Road'),
+	('Tiki Cat', 'cmenhenitte@tikicat.com', '716-669-8612', '6 Pepper Wood Plaza'),
+	('Top Fin', 'zroblinf@topfin.com', '252-142-4947', '4675 Dakota Crossing')	
  ;

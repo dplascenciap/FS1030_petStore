@@ -18,6 +18,7 @@ The requirement analysis identifies that we will need the following entities:
 - Customer
 - Supplier
 - Product
+- Categories
 - Order
 
 The relationships between these entities have been identifies as follows:

@@ -88,7 +88,7 @@ category_id (fk)
 */
 CREATE TABLE categories (
     category_id INT NOT NULL AUTO_INCREMENT,
-    name VARCHAR(50) NOT NULL,
+    name VARCHAR(50) DEFAULT 'miscellaneous',
     description VARCHAR(50),
     PRIMARY KEY (category_id)
 );
@@ -124,7 +124,7 @@ CREATE TABLE orders (
     order_number VARCHAR(50) NOT NULL UNIQUE,
     customer_id INT NOT NULL,
     order_date DATETIME NOT NULL DEFAULT (CURRENT_TIMESTAMP),
-    total DECIMAL(6,2),
+    total DECIMAL(6,2) DEFAULT 0.00,
     PRIMARY KEY (order_id),
 	CONSTRAINT fk_customer_id
 		FOREIGN KEY (customer_id) REFERENCES customer(customer_id)

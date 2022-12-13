@@ -25,7 +25,7 @@ INSERT INTO customer (first_name, last_name, phone_number, email, address)
 		('Linoel', 'Mawne', 'lmawnej@sciencedaily.com', '902-750-8565', '56384 Cody Crossing'),
 		('Danie', 'Cund', 'dcundk@creativecommons.org', '118-926-3610', '5155 Chive Road'),
 		('Thibaut', 'Rehor', 'trehorl@goodreads.com', '180-662-9615', '6556 Jay Pass'),
-		('Camille', 'Abrahamowitcz', 'cabrahamowitczm@arizona.edu', '703-348-3704', '4 Dakota Point'),
+		('Camille', 'Smith', 'cabrahamowitczm@arizona.edu', '703-348-3704', '4 Dakota Point'),
 		('Fabian', 'Trevers', 'ftreversn@cnet.com', '338-173-3783', '232 Nancy Place'),
 		('Sammie', 'Toop', 'stoopo@51.la', '650-217-2973', '21857 Mesta Alley'),
 		('Margeaux', 'Gowans', 'mgowansp@addtoany.com', '173-990-6009', '19728 Arkansas Road'),
@@ -91,8 +91,8 @@ INSERT INTO supplier (company_name, email, phone_number, address)
 		('QJI-PI-JNO-68', 'Dragon, komodo', 7, '2022-06-12 05:51:09', '415.15', 8),
 		('ODJ-ZZ-XDF-77', 'Little brown dove', 13, '2022-03-22 12:41:40', '31.63', 94),
 		('RKT-YJ-DSZ-23', 'Jaeger, long-tailed', 2, '2022-06-17 22:22:51', '285.52', 34),
-		('MTX-MZ-IHZ-23', 'Pheasant, common', 15, '2022-02-26 16:10:34', '520.60', 7),
-		('KYG-FX-CGU-28', 'Lion, southern sea', 14, '2022-01-07 06:56:01', '6.25', 49),
+		('MTX-MZ-IHZ-23', 'LED Aquarium Kit', 15, '2022-02-26 16:10:34', '520.60', 7),
+		('KYG-FX-CGU-28', 'Cat canned food', 14, '2022-01-07 06:56:01', '6.25', 49),
 		('OIO-MO-BVU-45', 'Seal, northern fur', 2, '2022-06-15 07:01:25', '65.13', 34),
 		('JRM-RX-LLQ-38', 'Hyrax', 3, '2022-03-09 03:30:14', '287.61', 26),
 		('TWF-OW-TBG-48', 'Brolga crane', 15, '2022-10-01 17:24:37', '292.85', 89),
@@ -124,8 +124,8 @@ INSERT INTO supplier (company_name, email, phone_number, address)
 		('ANS-NZ-ULU-31', 'Southern elephant seal', 9, '2022-06-15 19:37:27', '19.10', 9),
 		('JDL-NN-TIC-67', 'Squirrel, malabar', 11, '2022-10-19 21:49:23', '309.06', 49),
 		('ILE-ZA-OKD-23', 'Rabbit, eastern cottontail', 11, '2022-09-23 05:37:51', '180.95', 18),
-		('MGD-NV-BPI-07', 'Nighthawk, common', 6, '2022-10-08 14:23:20', '975.55', 54),
-		('AVW-GR-XUP-31', 'Cottonmouth', 15, '2022-06-23 07:28:31', '886.99', 13),
+		('MGD-NV-BPI-07', 'Nester bed for dogs', 6, '2022-10-08 14:23:20', '25.00', 54),
+		('AVW-GR-XUP-31', 'Barrel Aquarium Ornament', 15, '2022-06-23 07:28:31', '10', 13),
 		('ABI-RE-DCO-81', 'American marten', 14, '2022-02-03 03:06:13', '753.65', 45),
 		('VRF-QJ-KDC-79', 'Seal, harbor', 5, '2022-05-30 19:15:02', '15.89', 24),
 		('UFI-IC-WUD-95', 'Giant armadillo', 4, '2022-07-02 03:28:35', '852.79', 62),
@@ -153,10 +153,10 @@ INSERT INTO supplier (company_name, email, phone_number, address)
 		('SSJ-TA-JYU-20', 'Wagtail, african pied', 11, '2022-09-15 11:55:23', '526.24', 98),
 		('IFV-GX-SVX-55', 'Loris, slender', 14, '2022-09-10 19:15:51', '303.11', 88),
 		('MLI-RF-IHW-63', 'Beaver, american', 12, '2022-11-20 02:37:19', '349.43', 69),
-		('WJL-ML-NTZ-13', 'Bird, secretary', 5, '2022-11-19 08:15:38', '10.00', 88),
+		('WJL-ML-NTZ-13', 'Outdoor Feeders', 5, '2022-11-19 08:15:38', '10.00', 88),
 		('WHE-VI-ABW-67', 'Nine-banded armadillo', 15, '2022-08-12 22:31:24', '471.30', 96),
 		('XQE-FS-MHS-14', 'Praying mantis (unidentified)', 4, '2021-12-23 05:22:45', '595.78', 96),
-		('ONY-DU-CUB-31', 'Heron, grey', 3, '2022-07-17 11:10:55', '25.00', 67),
+		('ONY-DU-CUB-31', 'High Protein, Chicken & Rice', 3, '2022-07-17 11:10:55', '25.00', 67),
 		('HPL-IJ-XWB-99', 'Rock dove', 6, '2022-04-11 13:11:46', '427.75', 26),
 		('WOM-TZ-OYX-25', 'White-nosed coatimundi', 1, '2022-03-10 22:41:30', '398.89', 86),
 		('UUF-UI-SZA-82', 'Shelduck, european', 9, '2022-02-25 05:51:30', '938.60', 45),
@@ -196,6 +196,9 @@ SELECT * FROM product;
         ('treats', 'description for treats'),
         ('flea & tick', 'description for flea & tick')
 ;
+INSERT INTO categories (description)
+	VALUES
+		('description for generic');
 SELECT * FROM categories;
 
 -- Populate the table product_categories

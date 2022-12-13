@@ -42,19 +42,11 @@ SELECT * FROM product
 -- Display the average price of products.
 SELECT AVG(unit_price) AS AveragePrice FROM product;
 
--- Find the supplier with the most items in our inventory.
-SELECT sup.company_name, prod.name, prod.unit_price, prod.stock
-	FROM product as prod
-    JOIN supplier as sup
-		ON sup.supplier_id = prod.supplier_id
-	ORDER BY prod.stock DESC
-    LIMIT 1;
-
 -- Display all the categories available.
 SELECT * FROM categories;
 
 -- Sort the products by category.
-SELECT prod.product_id, prod.name as product_name, pc.category_id, cat.name as category_name
+SELECT prod.product_id, prod.product_sku, prod.name as product_name, pc.category_id, cat.name as category_name
 	FROM product as prod
     JOIN product_categories as pc
 		ON pc.product_id = prod.product_id
@@ -74,7 +66,7 @@ SELECT prod.product_id, prod.name as product_name, pc.category_id, cat.name as c
 ;
 
 -- Find the product 'blue fox' and the category that it belongs.
-SELECT prod.name as product_name, cat.name as category_name, pc.category_id
+SELECT prod.product_id, prod.name as product_name, cat.name as category_name, pc.category_id
 	FROM product as prod
     JOIN product_categories as pc
 		ON pc.product_id = prod.product_id
@@ -96,7 +88,7 @@ SELECT * FROM orders
 	ORDER BY order_date ASC;
 
 -- Display the customer name and email for each order.
-SELECT cust.first_name, cust.last_name, cust.email, ord.order_number, ord.order_date, ord.total
+SELECT cust.first_name, cust.last_name, cust.email, cust.phone_number, ord.order_number, ord.order_date, ord.total
 	FROM customer as cust
     JOIN orders as ord
 		ON ord.customer_id = cust.customer_id
@@ -132,3 +124,37 @@ SELECT ord.order_number, cust.first_name, cust.last_name, ord.order_date,
 	JOIN supplier as sup
 		ON sup.supplier_id = prod.supplier_id
 ;
+
+-- Place an order for David Plascencia
+-- 1. Create user
+INSERT INTO customer (first_name, last_name, phone_number, email, address)
+	VALUES
+		('David', 'Plascencia', '647-326-2958', 'dplascenciap@gmail.com', '17451 Yong Street');
+
+-- 2. Create order number for David
+--  2.1. Find David Plascencia id and then use this id to create an order,
+SELECT customer_id FROM customer WHERE email = "dplascenciap@gmail.com";
+INSERT INTO orders (order_number, customer_id, order_date)
+	VALUES
+		('12345-67', (SELECT customer_id FROM customer WHERE email = "dplascenciap@gmail.com") , now());
+SELECT * FROM orders;
+
+-- 3. Fill in the order details by adding products
+--   3.1 Find David's order and then use this id to add products into the order
+SELECT order_id FROM orders WHERE order_number = '12345-67';
+INSERT INTO order_details (order_id, product_id, quantity, cost)
+	VALUES
+		((SELECT order_id FROM orders WHERE order_number = '12345-67'), 45, 2, '50'),
+        ((SELECT order_id FROM orders WHERE order_number = '12345-67'), 46, 1, '10'),
+        ((SELECT order_id FROM orders WHERE order_number = '12345-67'), 12, 1, '520.60')
+        ;
+
+-- 4. Remove the last item from the order
+DELETE FROM order_details
+	WHERE order_id = (SELECT order_id FROM orders WHERE order_number = '12345-67')
+    AND product_id = 12
+    ;
+SELECT * FROM order_details;
+
+-- 5. Update total amount in order
+UPDATE orders SET total = 60.00 WHERE order_number = "12345-67";

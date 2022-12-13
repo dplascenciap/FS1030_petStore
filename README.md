@@ -32,7 +32,7 @@ The relationships between these entities have been identifies as follows:
 - Product (<ins>product_id</ins>, product_sku, name, supplier_id(fk), date_added, unit_price, stock)
 - Categories (<ins>category_id</ins>, name, description)
 - Product_categories(product_id(fk), category_id(fk))
-- Order (<ins>order_id</ins>, order_number, customer_id(fk), order_date, total)
+- Orders (<ins>order_id</ins>, order_number, customer_id(fk), order_date, total)
 - Order_details(<ins>order_details_id</ins>, order_id(fk), product_id(fk), quantity, cost)
 
 ### 3. Entity Relationship Diagram.
@@ -41,3 +41,4 @@ https://app.diagrams.net/#G13JQ8ZtWxKMDUx-BEWSwHOuBwIfiTv82x
 
 ### 4. SQL Scripts
 The database was created using the SQL scripts available at: [SQL_Scripts](./SQL_Scripts/)
+- To create the database, perform the script [pet_store_create_db.sql](./pet_store_create_db.sql)

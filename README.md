@@ -24,7 +24,7 @@ The requirement analysis identifies that we will need the following entities:
 The relationships between these entities have been identifies as follows:
 - A **customer** <ins>may have placed zero or more</ins> **orders**. An **order** <ins>must</ins> belong to <ins>one and only one</ins> **customer**.
 - A **supplier** <ins>must sell one or more</ins> **products**. A **product** <ins>must</ins> be supplied by <ins>one and only one</ins> **supplier**.
-- An **order** <ins>must have one or more</ins> **products**. A **product** <ins>may</ins> be part of <ins>zero or more</ins> **order**.
+- An **order** <ins>must have one or more</ins> **products**. A **product** <ins>may</ins> be part of <ins>zero or more</ins> **orders**.
 - A **product** <ins>must belong to one or more</ins> **categories**. A **category** <ins>may</ins> be part of <ins>zero or more</ins> **products**.
 
 ### 2. Relational Model.

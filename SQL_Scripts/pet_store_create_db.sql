@@ -123,7 +123,7 @@ CREATE TABLE orders (
     order_id INT NOT NULL AUTO_INCREMENT,
     order_number VARCHAR(50) NOT NULL,
     customer_id INT NOT NULL,
-    order_date DATETIME NOT NULL,
+    order_date DATETIME NOT NULL DEFAULT (CURRENT_TIMESTAMP),
     total DECIMAL(6,2),
     PRIMARY KEY (order_id),
 	CONSTRAINT fk_customer_id

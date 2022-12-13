@@ -1,0 +1,10 @@
+insert into orders (order_number, customer_id, order_date, total) values ('57220-83', 23, '2022-08-14 10:41:50', '102.33');
+insert into orders (order_number, customer_id, order_date, total) values ('90586-61', 40, '2022-11-21 10:16:31', '885.65');
+insert into orders (order_number, customer_id, order_date, total) values ('72361-90', 35, '2022-01-16 03:52:48', '594.04');
+insert into orders (order_number, customer_id, order_date, total) values ('42339-84', 12, '2022-09-04 09:53:48', '773.11');
+insert into orders (order_number, customer_id, order_date, total) values ('62025-04', 29, '2022-06-18 18:36:19', '461.36');
+insert into orders (order_number, customer_id, order_date, total) values ('57766-27', 42, '2022-05-23 18:34:57', '213.35');
+insert into orders (order_number, customer_id, order_date, total) values ('03963-97', 6, '2022-01-17 01:07:35', '499.22');
+insert into orders (order_number, customer_id, order_date, total) values ('79247-02', 25, '2022-03-30 20:59:51', '823.21');
+insert into orders (order_number, customer_id, order_date, total) values ('90018-45', 32, '2021-12-26 16:02:52', '379.74');
+insert into orders (order_number, customer_id, order_date, total) values ('34530-34', 44, '2022-01-28 07:12:41', '158.88');

@@ -73,10 +73,10 @@ INSERT INTO supplier (company_name, email, phone_number, address)
 		('Whiskas', 'ysaddletonc@whiskas.com', '217-786-0580', '66013 Dottie Terrace'),
 		('Merrick', 'rmorded@merrick.com', '868-618-9176', '03059 Sundown Road'),
 		('Tiki Cat', 'cmenhenitte@tikicat.com', '716-669-8612', '6 Pepper Wood Plaza'),
-		('Top Fin', 'zroblinf@topfin.com', '252-142-4947', '4675 Dakota Crossing')	
+		('Top Fin', 'zroblinf@topfin.com', '252-142-4947', '4675 Dakota Crossing')
  ;
  SELECT * FROM supplier;
- 
+
  -- Populate the table products
  INSERT INTO product (product_sku, name, supplier_id, date_added, unit_price, stock)
 	VALUES

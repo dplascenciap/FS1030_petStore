@@ -143,7 +143,7 @@ INSERT INTO supplier (company_name, email, phone_number, address)
 		('KPL-VP-XFQ-66', 'Nyala', 14, '2021-12-20 03:48:32', '726.35', 58),
 		('PZG-XC-TGT-16', 'Pied butcher bird', 10, '2022-05-01 05:31:06', '274.93', 4),
 		('JNE-DQ-XQN-18', 'Otter, small-clawed', 11, '2022-11-23 19:34:11', '568.56', 30),
-		('ZTD-FB-RUT-54', 'Wolf, timber', 12, '2022-11-02 02:35:11', '991.71', 18),
+		('ZTD-FB-RUT-54', 'Dog house', 12, '2022-11-02 02:35:11', '991.71', 18),
 		('YLM-YG-RFL-84', 'Hoary marmot', 13, '2022-02-08 01:32:08', '404.02', 65),
 		('QAI-PF-XYO-03', 'Snake, eastern indigo', 7, '2022-07-05 17:37:42', '81.67', 79),
 		('OMB-FB-PXT-65', 'Macaw, red and blue', 8, '2022-01-30 00:14:53', '327.32', 91),

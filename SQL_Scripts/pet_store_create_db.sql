@@ -154,3 +154,7 @@ CREATE TABLE order_details (
 
 -- Display the table data information to make sure it was created correctly
 DESCRIBE order_details;
+
+-- Show the tables in the database.
+-- At this point all the tables have been created.
+SHOW TABLES;

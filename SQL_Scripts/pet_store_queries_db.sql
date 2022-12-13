@@ -1,8 +1,8 @@
--- Show tables in the db.
-SHOW tables;
-
 -- User pet_store_db.
 USE pet_store_db;
+
+-- Show tables in the db.
+SHOW tables;
 
 -- Display all the products.
 SELECT * FROM product;
@@ -99,14 +99,14 @@ SELECT cust.first_name, cust.last_name, cust.email, cust.phone_number, ord.order
 SELECT * FROM customer;
 ALTER TABLE customer
 	RENAME COLUMN phone_number
-    TO phone_number_aux;
+    TO phone_number_helper;
 
 ALTER TABLE customer
 	RENAME COLUMN email
     TO phone_number;
 
 ALTER TABLE customer
-	RENAME COLUMN phone_number_aux
+	RENAME COLUMN phone_number_helper
     TO email;
 SELECT * FROM customer;
 

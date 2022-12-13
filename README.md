@@ -45,3 +45,4 @@ The ERD can be found in the following locations:
 The database was created using the SQL scripts available at: [SQL_Scripts](./SQL_Scripts/)
 - To create the database, perform the script [pet_store_create_db.sql](./SQL_Scripts/pet_store_create_db.sql)
 - To populate the database, perform the script [pet_store_populate_db.sql](./SQL_Scripts/pet_store_populate_db.sql)
+- To run some useful queries, perform the script [pet_store_queries_db.sql](./SQL_Scripts/pet_store_queries_db.sql)

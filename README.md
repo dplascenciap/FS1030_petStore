@@ -40,6 +40,7 @@ The ERD can be found in the following locations:
  - URL: https://app.diagrams.net/#G13JQ8ZtWxKMDUx-BEWSwHOuBwIfiTv82x
  - PNG exported from the URL: [Pet_Store_ERD.png](./ERD/Pet_Store_ERD.png)
  - PNG exported frm MySQL Workbench: [Pet_Store_ERD_MySQL.png](./ERD/Pet_Store_ERD_MySQL.png)
+ - Comparison between the two diagrams: [Pet_Store_ERD_Comparison.png](./ERD/Pet_Store_ERD_Comparison.png)
 
 ### 4. SQL Scripts
 The database was created using the SQL scripts available at: [SQL_Scripts](./SQL_Scripts/)
